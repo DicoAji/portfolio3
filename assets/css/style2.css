@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black !important; */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif !important;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.skills_list,
+.skills_other {
+  .btn {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+}
+
+.hard_skills {
+  .hard_skills_logo {
+    img {
+      display: inline-block;
+      height: 100px !important;
+    }
+  }
+}
+.btn-blue {
+  background-color: #2506ad;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+.btn-orange {
+  background-color: #ffae00;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+.scrolled {
+  background-color: white !important;
+}
+
+header {
+  background-color: transparent;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  .navbar_menu {
+    a {
+      font-size: 18px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      font-weight: 600;
+      display: inline-block !important;
+    }
+    a:hover {
+      box-shadow: 0 3px 0 0 black;
+    }
+  }
+}
+
+.hero_section {
+  .social_media {
+    a {
+      font-size: 25px;
+      display: inline-block;
+      border-radius: 100px !important;
+      z-index: 2;
+      background: linear-gradient(
+        180deg,
+        #fff 0%,
+        #cbcbcb 99.99%,
+        #6e6e6e 100%
+      );
+    }
+    .fa-linkedin:hover {
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(118, 201, 255) 2.099975571036339%,
+        rgb(60, 124, 224) 65.59997797012329%
+      );
+      border-radius: 50%;
+      color: white;
+      transition: 0.6s;
+    }
+
+    .fa-github:hover {
+      background: linear-gradient(180deg, #1e1e1e 0%, #232f69 100%);
+      border-radius: 50%;
+      color: white;
+      transition: 0.6s;
+    }
+    .fa-envelope:hover {
+      background: conic-gradient(
+        from 180deg at 50% 50%,
+        #640a0a 0deg,
+        #c63737 360deg
+      );
+      border-radius: 50%;
+      color: white;
+      transition: 0.6s;
+    }
+    .fa-twitter:hover {
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(118, 201, 255) 2.099975571036339%,
+        rgb(60, 124, 224) 65.59997797012329%
+      );
+      border-radius: 50%;
+      color: white;
+      transition: 0.6s;
+    }
+    .fa-instagram:hover {
+      background: linear-gradient(
+        180deg,
+        #7b37ae 0%,
+        #e81130 55.6%,
+        #f8d201 100%
+      );
+      border-radius: 50%;
+      color: white;
+      transition: 0.6s;
+    }
+
+    i {
+      padding: 15px 15px;
+      border-radius: 50% !important;
+    }
+  }
+}
+
+.about {
+  background-image: url("../img/bg-coding.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  padding: 50px 0;
+  color: white;
+}
+.footer {
+  padding: 50px 0;
+  background: #000030;
+  color: white;
+  ul li {
+    margin-top: 5px;
+  }
+  ul li a {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  ul li::marker {
+    content: none;
+  }
+  ol,
+  ul {
+    padding-left: 0;
+  }
+  .social_media {
+    padding: 10px;
+    i {
+      background-color: #b8b8b8;
+      padding: 10px;
+      font-size: 25px;
+      border-radius: 50%;
+      color: white;
+    }
+  }
+  .quick_link {
+    ul li a {
+      color: white;
+    }
+  }
+  .contact_person {
+    ul li a {
+      color: white;
+    }
+  }
+  .fa-linkedin {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(118, 201, 255) 2.099975571036339%,
+      rgb(60, 124, 224) 65.59997797012329%
+    );
+    border-radius: 50%;
+    color: white;
+    transition: 0.6s;
+  }
+
+  .fa-github {
+    background: linear-gradient(180deg, #1e1e1e 0%, #232f69 100%);
+    border-radius: 50%;
+    color: white;
+    transition: 0.6s;
+  }
+  .fa-envelope {
+    background: conic-gradient(
+      from 180deg at 50% 50%,
+      #640a0a 0deg,
+      #c63737 360deg
+    );
+    border-radius: 50%;
+    color: white;
+    transition: 0.6s;
+  }
+  .fa-twitter {
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgb(118, 201, 255) 2.099975571036339%,
+      rgb(60, 124, 224) 65.59997797012329%
+    );
+    border-radius: 50%;
+    color: white;
+    transition: 0.6s;
+  }
+  .fa-instagram {
+    background: linear-gradient(
+      180deg,
+      #7b37ae 0%,
+      #e81130 55.6%,
+      #f8d201 100%
+    );
+    border-radius: 50%;
+    color: white;
+    transition: 0.6s;
+  }
+}
+.education {
+  padding: 50px 0;
+  background: #000030;
+  /* background-image: url("../img/bg-coding.png"); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* object-fit: cover; */
+  color: white;
+  img {
+    max-height: 280px;
+    object-fit: cover;
+  }
+}
+
+#projectsContainer {
+  img {
+    /* display: inline-block; */
+    width: 100%;
+  }
+}

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dico Aji Prasetyo Portfolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon/logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="w-full bg-transparent header sticky top-0 left-0 z-50">
+      <nav>
+        <div class="mx-auto max-w-7xl">
+          <div class="relative flex h-16 items-center">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button
+                id="mobile-menu-button"
+                type="button"
+                class="relative inline-flex items-center justify-center rounded-md p-2"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+              >
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <svg
+                  class="block h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+                <svg
+                  class="hidden h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="flex items-center justify-between w-full">
+              <div class="flex">
+                <h4
+                  class="font-bold my-auto text-[22px] max-sm:hidden"
+                  href="#"
+                >
+                  DICO
+                </h4>
+              </div>
+              <div class="hidden ml-auto sm:ml-6 sm:block">
+                <div class="navbar_menu space-x-[40px]">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#experience">Experience</a>
+                  <a href="#education">Education</a>
+                  <a href="#project">Project</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
+            >
+              <button
+                type="button"
+                class="relative rounded-full bg-gray-800 py-1 px-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              >
+                <span class="absolute -inset-1.5"></span>
+                <span class="sr-only">View notifications</span>
+                <i class="fa-solid fa-lightbulb"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="hidden sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <a href="#home" class="block px-3 py-2 text-base font-medium"
+              >Home</a
+            >
+            <a href="#about" class="block px-3 py-2 text-base font-medium"
+              >About</a
+            >
+            <a href="#skills" class="block px-3 py-2 text-base font-medium"
+              >Skiils</a
+            >
+            <a href="#experience" class="block px-3 py-2 text-base font-medium"
+              >Experience</a
+            >
+            <a href="#education" class="block px-3 py-2 text-base font-medium"
+              >Education</a
+            >
+            <a href="#project" class="block px-3 py-2 text-base font-medium"
+              >Project</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="space-y-[120px] ]">
+      <section class="hero_section relative" id="hero">
+        <div class="absolute w-full h-full" id="particles-js"></div>
+        <div class="mx-auto max-w-7xl">
+          <div class="grid grid-cols-2 max-sm:grid-cols-1 h-full pt-[100px]">
+            <div class="flex items-center relative">
+              <div class="space-y-[30px]">
+                <h1
+                  class="font-bold max-md:font-semibold text-[55px] max-md:text-[50px] block text-[#002057]"
+                >
+                  Hi There, <br />
+                  I'm
+                  <span class="text-[#fec903]"> Dico Aji Prasetyo</span>
+                </h1>
+
+                <a href="#" class="btn-blue inline-block"
+                  >Contact Me <i class="fa-solid fa-phone"></i
+                ></a>
+
+                <div class="social_media">
+                  <a
+                    href="https://www.linkedin.com/in/dico-aji-prasetyo-154318223/"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://twitter.com/dicoajip"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="https://github.com/DicoAji"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="mailto:dicoaji12@gmail.com"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></a>
+                  <a href="https://www.instagram.com/dicoaji_/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative w-full max-md:mt-[80px]">
+              <svg
+                class="absolute z-0 -top-[30px] right-1/2 translate-x-1/2 w-[80%]"
+                viewBox="0 0 1000 1000"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient id="c" gradientTransform="rotate(150 .5 .5)">
+                    <stop stop-color="#FEC903" />
+                  </linearGradient>
+                  <clipPath id="b">
+                    <path
+                      class="relative"
+                      fill="currentColor"
+                      d="M905 626q-58 126-155 236t-242 84.5q-145-25.5-240-117T127 619q-46-119-18-250.5t140-214Q361 72 506 53t238.5 91q93.5 110 156 233t4.5 249Z"
+                    />
+                  </clipPath>
+                  <filter
+                    id="a"
+                    x="-90vw"
+                    y="-50vh"
+                    width="100vw"
+                    height="100vh"
+                  >
+                    <feFlood flood-color="#fff" result="neutral-gray" />
+                    <feTurbulence
+                      type="fractalNoise"
+                      baseFrequency="2.5"
+                      numOctaves="100"
+                      stitchTiles="stitch"
+                      result="noise"
+                    />
+                    <feColorMatrix
+                      in="noise"
+                      type="saturate"
+                      values="0"
+                      result="destaturatedNoise"
+                    />
+                    <feComponentTransfer
+                      in="desaturatedNoise"
+                      result="theNoise"
+                    >
+                      <feFuncA type="table" tableValues="0 0 0.05 0" />
+                    </feComponentTransfer>
+                    <feBlend
+                      in="SourceGraphic"
+                      in2="theNoise"
+                      mode="soft-light"
+                      result="noisy-image"
+                    />
+                  </filter>
+                </defs>
+                <g filter="url(#a)" clip-path="url(#b)">
+                  <path
+                    fill="url(#c)"
+                    d="M905 626q-58 126-155 236t-242 84.5q-145-25.5-240-117T127 619q-46-119-18-250.5t140-214Q361 72 506 53t238.5 91q93.5 110 156 233t4.5 249Z"
+                  />
+                </g>
+              </svg>
+              <div
+                class="relative lg:w-[75%] md:ml-auto mx-auto md:w-[90%] w-[80%]"
+              >
+                <img
+                  class="img-hero z-10 relative w-full"
+                  src="assets/img/hero.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT ME -->
+      <section class="about" id="about">
+        <div class="mx-auto max-w-7xl text-center space-y-[30px]">
+          <h2 class="text-[30px] font-semibold md:text-[35px]">About</h2>
+          <p>
+            I am a full-stack developer. I am a graduate of Diponegoro
+            University Informatics. I am very passionate about improving my
+            coding skills & developing applications & websites. When I was in
+            college, I have received website development projects. I also enjoy
+            developing my coding skills through my portfolio. I can work as a
+            team or individual.
+          </p>
+          <div class="">
+            <p>
+              Email :
+              <a href="mailto:dicoaji12@gmail.com"> dicoaji12@gmail.com </a>
+            </p>
+            <p>
+              Address :
+              <a
+                href="https://www.google.com/maps/place/Kec.+Kradenan,+Kabupaten+Grobogan,+Jawa+Tengah/@-7.1727291,111.0493816,12z/data=!3m1!4b1!4m6!3m5!1s0x2e7753592ca591c7:0x4027a76e352ef70!8m2!3d-7.1490283!4d111.1433863!16s%2Fg%2F11b_2nym12?hl=id&entry=ttu"
+                >Grobogan, Central Java</a
+              >
+            </p>
+          </div>
+          <button>
+            <a
+              href="https://drive.google.com/file/d/1Lrxz7CnDhUC1hftrfAzNgp46Yg6d72u1/view?usp=sharing"
+              class="btn-orange inline-block"
+              >Resume</a
+            >
+          </button>
+        </div>
+      </section>
+      <!-- HARD SKILL -->
+      <section class="hard_skills text-center relative" id="skills">
+        <div id="particles-js"></div>
+        <div class="mx-auto max-w-7xl space-y-[30px]">
+          <h2 class="text-[30px] font-semibold md:text-[35px]">
+            What <span class="text-[#0000b6]">I Do</span>
+          </h2>
+          <div class="skills_list">
+            <a href="" class="btn">Coding</a>
+            <a href="" class="btn">Editing Photo</a>
+            <a href="" class="btn">UI/UX Design</a>
+            <a href="" class="btn">Administrative Task</a>
+            <a href="" class="btn">Microsoft Office</a>
+            <a href="" class="btn">Research And Analysis</a>
+          </div>
+          <div
+            class="hard_skills_logo space-x-[10px] space-y-[15px]"
+            id="hardSkillsLogo"
+          ></div>
+        </div>
+      </section>
+      <!-- SOFT SKILL -->
+      <section class="relative mx-auto max-w-7xl">
+        <div class="soft_skills w-[70%] mx-auto text-center space-y-[30px]">
+          <h2 class="text-[30px] font-semibold md:text-[35px]">
+            My Other Skills
+          </h2>
+          <div class="skills_other space-x-[5px] space-y-[15px]">
+            <a href="" class="btn btn-outline-dark">Problem Solving</a>
+            <a href="" class="btn btn-outline-dark">Critical Thinking</a>
+            <a href="" class="btn btn-outline-dark">Colaborative</a>
+            <a href="" class="btn btn-outline-dark">Creative</a>
+            <a href="" class="btn btn-outline-dark">Time Management</a>
+            <a href="" class="btn btn-outline-dark">Adaptive</a>
+            <a href="" class="btn btn-outline-dark"
+              >Independent Learing Ability</a
+            >
+            <a href="" class="btn btn-outline-dark">Digence and Rigor</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="education relative" id="education">
+        <div class="mx-auto max-w-7xl">
+          <h2 class="text-[30px] font-semibold md:text-[35px] text-center">
+            My Education Jurney
+          </h2>
+          <div class="grid md:grid-cols-2 grid-cols-1 mt-[40px] gap-[20px]">
+            <div class="">
+              <div class="card text-white bg-[#111145] p-[30px] rounded-[20px]">
+                <img
+                  src="assets/img/undip.jpg"
+                  class="card-img-top mx-auto w-[600px] h-[350px] object-cover"
+                  alt="..."
+                />
+                <div class="card-body mt-[20px]">
+                  <p class="card-title font-bold">Diponegoro University</p>
+                  <p>Informatics Engineering (2019-2024)</p>
+                  <a
+                    href="https://www.undip.ac.id/"
+                    class="btn-blue inline-block mt-[10px]"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card text-white bg-[#111145] p-[30px] rounded-[20px]">
+                <img
+                  src="assets/img/SMA-gerbang.png"
+                  class="card-img-top w-[600px] mx-auto h-[350px] object-cover"
+                  alt="..."
+                />
+                <div class="card-body mt-[20px]">
+                  <p class="card-title font-bold">SMA N 1 Kradenan</p>
+                  <p class="card-text">2017-2019</p>
+                  <a
+                    href="https://smansakradenan.sch.id/"
+                    class="btn-blue inline-block mt-[10px]"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EXPERIENCE -->
+      <section
+        class="container mx-auto text-center bg-slate-200 md:p-[50px] p-[20px] rounded-[20px]"
+        id="experience"
+      >
+        <h1
+          class="text-[30px] font-semibold md:text-[35px] text-center text-blue-800"
+        >
+          Experience
+        </h1>
+        <div class="experience space-y-[40px] mt-[50px]">
+          <div class="">
+            <p class="text-[24px] font-medium">EDITING CODING</p>
+            <p>📍 Badan Pusat Statistika Grobogan</p>
+            <p class="text-blue-800">July 2023 - August 2023</p>
+            <p>
+              Correct, tidy up and check the code and document contents of the
+              agricultural census results in 2023. Input data that has been
+              checked and corrected into Microsoft Excel with a time of one day
+              100 documents.
+            </p>
+          </div>
+          <div class="">
+            <p class="text-[24px] font-medium">
+              MACHINE LEARNING AND FRONT END WEB INDEPENDENT STUDY PROGRAM
+            </p>
+            <p>📍 Dicoding Indonesia</p>
+            <p class="text-blue-800">August 2022 - December 2022</p>
+            <p>
+              Study material comprehension 8 hours a day. Soft skills training
+              class meetings (time management, personal productivity,
+              communication skills, ethical behavior, networking, business
+              presentation, personal branding). Complete coding assignments
+              related to machine learning and web front end.
+            </p>
+          </div>
+          <div class="">
+            <p class="text-[24px] font-medium">WEB DEVELOPER</p>
+            <p>📍 Dinas Pendidikan dan Kebudayaan Kabupaten Batang</p>
+            <p class="text-blue-800">February 2022 - July 2022</p>
+            <p>
+              Brainstorming with the Dinas, how the flow and what features are
+              presented in the Bandikmenti information system, an information
+              system used as a forum for registering scholarships and managing
+              data on the selection of Batang district scholarship recipients.
+              Coordinate with members of the information system development
+              team. Create the interface of the Bandikmenti information system
+              (UI/UX Design). Develop interface design into a website-based
+              Bandikmenti information system. Conducting feasibility application
+              tests.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT -->
+      <section class="project" id="project">
+        <div class="container mx-auto text-center">
+          <h2 class="text-[30px] font-semibold md:text-[35px] text-center">
+            Lets Have a look at My Portfolio
+          </h2>
+        </div>
+        <div
+          class="mt-[40px] grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4"
+          id="projectsContainer"
+        >
+          <!-- looping project -->
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <section class="footer" id="contact">
+        <footer>
+          <div class="mx-auto max-w-7xl">
+            <div class="grid md:grid-cols-2 grid-cols-1">
+              <div>
+                <h3 class="text-[20px] font-semibold md:text-[22px]">
+                  Dico Aji Prasetyo
+                </h3>
+                <p class="text-[16px]">
+                  Thank you for visiting my portfolio. Don't forget to keep
+                  trying and praying.
+                </p>
+              </div>
+              <div class="max-md:mt-[40px]">
+                <div class="flex">
+                  <div class="quick_link lg:mx-auto">
+                    <p class="text-[18px] font-semibold">Quick Link</p>
+                    <ul>
+                      <li><a href="#home">↗ Home</a></li>
+                      <li><a href="#about">↗ About Me</a></li>
+                      <li><a href="#skills">↗ Skills</a></li>
+                      <li><a href="#education">↗ Education</a></li>
+                      <li><a href="#experience">↗ Experience</a></li>
+                      <li><a href="#project">↗ Project</a></li>
+                    </ul>
+                  </div>
+                  <div class="max-lg:ml-4">
+                    <div class="contact_person max-lg:ml-auto">
+                      <p class="text-[18px] font-semibold">Contact Person</p>
+                      <ul>
+                        <li><a href="">📞 +6288200-XXX-XXX</a></li>
+                        <li><a href="">📨 dicoaji12@gmail.com</a></li>
+                        <li><a href="">📍 Grobogan</a></li>
+                      </ul>
+                      <div class="social_media">
+                        <a
+                          href="https://www.linkedin.com/in/dico-aji-prasetyo-154318223/"
+                          ><i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/DicoAji"
+                          ><i class="fab fa-github"></i
+                        ></a>
+                        <a href="mailto:dicoaji12@gmail.com"
+                          ><i class="fa-solid fa-envelope"></i
+                        ></a>
+                        <a href="https://twitter.com/dicoajip"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                        <a href="https://www.instagram.com/dicoaji_/"
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+
+    <script>
+      // Fungsi untuk memuat data dari kedua file JSON
+      async function loadData() {
+        try {
+          const [projectsResponse, skillsResponse] = await Promise.all([
+            fetch("assets/data/project.json"),
+            fetch("assets/data/data-language.json"),
+          ]);
+
+          const data_project = await projectsResponse.json();
+          const data_language = await skillsResponse.json();
+
+          console.log(data_project);
+          console.log(data_language);
+
+          displayProjects(data_project.project);
+          displayImages(data_language.data_language);
+        } catch (error) {
+          console.error("Error loading data:", error);
+        }
+      }
+
+      // Fungsi untuk menampilkan proyek
+      function displayProjects(projects) {
+        const container = document.getElementById("projectsContainer");
+        projects.forEach((project) => {
+          // Buat elemen div untuk setiap proyek
+          const projectDiv = document.createElement("div");
+          projectDiv.classList.add(
+            "bg-white",
+            "p-[10px]",
+            "shadow-md",
+            "space-y-[10px]"
+          );
+
+          // Buat elemen img untuk gambar proyek
+          const imgElement = document.createElement("img");
+          imgElement.src = `assets/img/project/${project.gambar}`;
+          imgElement.alt = project.tittle;
+          imgElement.classList.add("w-full");
+
+          // Buat elemen p untuk judul proyek
+          const titleElement = document.createElement("p");
+          titleElement.textContent = project.tittle;
+
+          // Buat elemen a untuk link proyek
+          const linkElement = document.createElement("a");
+          linkElement.href = project.link;
+          linkElement.textContent = "Go to Site";
+          linkElement.classList.add("inline-block", "btn-blue");
+
+          // Tambahkan elemen-elemen ke dalam div proyek
+          projectDiv.appendChild(imgElement);
+          projectDiv.appendChild(titleElement);
+          projectDiv.appendChild(linkElement);
+
+          // Tambahkan div proyek ke dalam container
+          container.appendChild(projectDiv);
+        });
+      }
+
+      // Fungsi untuk menampilkan gambar
+      function displayImages(images) {
+        const container = document.getElementById("hardSkillsLogo");
+        images.forEach((image) => {
+          const imgElement = document.createElement("img");
+          imgElement.src = `assets/img/data-language/${image.gambar}`;
+          imgElement.alt = image.tittle;
+          container.appendChild(imgElement);
+        });
+      }
+
+      // Panggil fungsi loadData saat halaman dimuat
+      window.onload = loadData;
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuButton = document.getElementById("mobile-menu-button");
+        const menu = document.getElementById("mobile-menu");
+
+        menuButton.addEventListener("click", function () {
+          const expanded =
+            menuButton.getAttribute("aria-expanded") === "true" || false;
+          menuButton.setAttribute("aria-expanded", !expanded);
+          menu.classList.toggle("hidden");
+        });
+      });
+      // JavaScript to change header background on scroll
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector(".header");
+        if (window.scrollY > 50) {
+          // Change '50' to the scroll position where you want the effect to occur
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
