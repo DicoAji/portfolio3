@@ -22,9 +22,9 @@
   <body>
     <header class="w-full bg-transparent header sticky top-0 left-0 z-50">
       <nav>
-        <div class="mx-auto max-w-7xl">
+        <div class="mx-auto md:max-w-7xl max-md:w-[90%]">
           <div class="relative flex h-16 items-center">
-            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
               <button
                 id="mobile-menu-button"
                 type="button"
@@ -35,7 +35,7 @@
                 <span class="absolute -inset-0.5"></span>
                 <span class="sr-only">Open main menu</span>
                 <svg
-                  class="block h-6 w-6"
+                  class="block h-9 w-9"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
@@ -66,60 +66,42 @@
             </div>
             <div class="flex items-center justify-between w-full">
               <div class="flex">
-                <h4
-                  class="font-bold my-auto text-[22px] max-sm:hidden"
-                  href="#"
-                >
-                  DICO
-                </h4>
+                <img
+                  src="assets/img/logo.svg"
+                  class="w-[30px] my-auto"
+                  alt=""
+                />
+                <h5 class="font-bold ml-1 text-[24px]">Dico</h5>
               </div>
-              <div class="hidden ml-auto sm:ml-6 sm:block">
-                <div class="navbar_menu space-x-[40px]">
-                  <a href="#home">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#skills">Skills</a>
-                  <a href="#experience">Experience</a>
-                  <a href="#education">Education</a>
-                  <a href="#project">Project</a>
+              <div class="hidden sm:ml-auto sm:block">
+                <div class="navbar_menu space-x-[70px]">
+                  <a class="inline-block" href="#home">Home</a>
+                  <a class="inline-block" href="#about">About</a>
+                  <a class="inline-block" href="#skills">Skills</a>
+                  <a class="inline-block" href="#experience">Experience</a>
+                  <a class="inline-block" href="#education">Education</a>
+                  <a class="inline-block border-black" href="#project"
+                    >Project</a
+                  >
                 </div>
               </div>
-            </div>
-            <div
-              class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
-            >
-              <button
-                type="button"
-                class="relative rounded-full bg-gray-800 py-1 px-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-              >
-                <span class="absolute -inset-1.5"></span>
-                <span class="sr-only">View notifications</span>
-                <i class="fa-solid fa-lightbulb"></i>
-              </button>
             </div>
           </div>
         </div>
 
         <!-- Mobile menu, show/hide based on menu state. -->
         <div class="hidden sm:hidden" id="mobile-menu">
-          <div class="space-y-1 px-2 pb-3 pt-2">
-            <a href="#home" class="block px-3 py-2 text-base font-medium"
-              >Home</a
-            >
-            <a href="#about" class="block px-3 py-2 text-base font-medium"
-              >About</a
-            >
-            <a href="#skills" class="block px-3 py-2 text-base font-medium"
-              >Skiils</a
-            >
-            <a href="#experience" class="block px-3 py-2 text-base font-medium"
+          <div class="space-y-[15px] ml-auto -translate-x-[20px]">
+            <a href="#home" class="flex justify-end font-bold">Home</a>
+            <a href="#about" class="flex justify-end font-bold">About</a>
+            <a href="#skills" class="flex justify-end font-bold">Skiils</a>
+            <a href="#experience" class="flex justify-end font-bold"
               >Experience</a
             >
-            <a href="#education" class="block px-3 py-2 text-base font-medium"
+            <a href="#education" class="flex justify-end font-bold"
               >Education</a
             >
-            <a href="#project" class="block px-3 py-2 text-base font-medium"
-              >Project</a
-            >
+            <a href="#project" class="flex justify-end font-bold">Project</a>
           </div>
         </div>
       </nav>
@@ -323,7 +305,7 @@
             <div class="">
               <div class="card text-white bg-[#111145] p-[30px] rounded-[20px]">
                 <img
-                  src="assets/img/undip.jpg"
+                  src="assets/img/undip_patung_kuda.png"
                   class="card-img-top mx-auto w-[600px] h-[350px] object-cover"
                   alt="..."
                 />
