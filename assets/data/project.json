@@ -4,77 +4,77 @@
       "kategori": "portfolio",
       "tittle": "Portfolio 1",
       "link": "https://dicoaji.github.io/portfolio1.github.io/",
-      "gambar": "portfolio1.jpg"
+      "gambar": "portfolio1.png"
     },
     {
       "kategori": "portfolio",
       "tittle": "Portfolio 2",
       "link": "https://dicoaji.github.io/dico-aji-resume/",
-      "gambar": "portfolio2.jpg"
+      "gambar": "portfolio2.png"
     },
     {
       "kategori": "portfolio",
       "tittle": "Personal 3",
       "link": "https://dicoaji.github.io/personal-portfolio/",
-      "gambar": "portfolio3.jpg"
+      "gambar": "portfolio3.png"
     },
 
     {
       "kategori": "portfolio",
       "tittle": "Portfolio 4",
       "link": "",
-      "gambar": "portfolio4.jpg"
+      "gambar": "portfolio4.png"
     },
     {
       "kategori": "portfolio",
       "tittle": "Portfolio 5",
       "link": "",
-      "gambar": "portfolio5.jpg"
+      "gambar": "portfolio5.png"
     },
 
     {
       "kategori": "client project",
       "tittle": "Bandikmenti Web",
       "link": "https://bandikmenti.batangkab.go.id/",
-      "gambar": "bandikmenti.jpg"
+      "gambar": "bandikmenti.png"
     },
     {
       "kategori": "other",
       "tittle": "Personal Notes React App",
       "link": "https://dicoaji.github.io/aplikasi-pencatatan-React.github.io/",
-      "gambar": "personal_notes.jpg"
+      "gambar": "personal_notes.png"
     },
 
     {
       "kategori": "client project",
       "tittle": "SIPPBCB",
       "link": "https://dicoaji.github.io/maulaporUI.github.io/",
-      "gambar": "sippbcb.jpg"
+      "gambar": "sippbcb.png"
     },
     {
       "kategori": "other",
       "tittle": "Bookshelf",
       "link": "https://dicoaji.github.io/todolist.github.io/",
-      "gambar": "bookshelf.jpg"
+      "gambar": "bookshelf.png"
     },
 
     {
       "kategori": "self project",
       "tittle": "Tutorify",
       "link": "https://dicoaji.github.io/tutorify-interface/",
-      "gambar": "tutorify.jpg"
+      "gambar": "tutorify.png"
     },
     {
       "kategori": "self project",
       "tittle": "Attain",
       "link": "https://dicoaji.github.io/attain-interface/",
-      "gambar": "attain.jpg"
+      "gambar": "attain.png"
     },
     {
       "kategori": "self project",
       "tittle": "Credia",
       "link": "https://dicoaji.github.io/credia-interface/",
-      "gambar": "credia.jpg"
+      "gambar": "credia.png"
     },
     {
       "kategori": "data analysis",
@@ -98,7 +98,7 @@
       "kategori": "data analysis",
       "tittle": "Rock Paper Scissor Detection",
       "link": "https://drive.google.com/file/d/16qn6JsAIHpmF6wGLgo1KUCozNq5_iO1G/view?usp=sharing",
-      "gambar": "rps.jpg"
+      "gambar": "rps.png"
     }
   ]
 }
