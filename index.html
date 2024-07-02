@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <body class="max-w-[1990px] mx-auto">
     <header class="w-full bg-transparent header sticky top-0 left-0 z-50">
       <nav>
         <div class="mx-auto md:max-w-7xl max-md:w-[90%]">
@@ -35,7 +35,7 @@
                 <span class="absolute -inset-0.5"></span>
                 <span class="sr-only">Open main menu</span>
                 <svg
-                  class="block h-9 w-9"
+                  class="block h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
@@ -68,13 +68,17 @@
               <div class="flex">
                 <img
                   src="assets/img/logo.svg"
-                  class="w-[30px] my-auto"
+                  class="sm:w-[30px] w-[20px] my-auto"
                   alt=""
                 />
-                <h5 class="font-bold ml-1 text-[24px]">Dico</h5>
+                <h5
+                  class="sm:font-bold font-semibold ml-1 sm:text-[24px] text-[18px]"
+                >
+                  Dico
+                </h5>
               </div>
               <div class="hidden sm:ml-auto sm:block">
-                <div class="navbar_menu space-x-[70px]">
+                <div class="navbar_menu space-x-[40px]">
                   <a class="inline-block" href="#home">Home</a>
                   <a class="inline-block" href="#about">About</a>
                   <a class="inline-block" href="#skills">Skills</a>
@@ -90,57 +94,54 @@
         </div>
 
         <!-- Mobile menu, show/hide based on menu state. -->
-        <div class="hidden sm:hidden" id="mobile-menu">
-          <div class="space-y-[15px] ml-auto -translate-x-[20px]">
-            <a href="#home" class="flex justify-end font-bold">Home</a>
-            <a href="#about" class="flex justify-end font-bold">About</a>
-            <a href="#skills" class="flex justify-end font-bold">Skiils</a>
-            <a href="#experience" class="flex justify-end font-bold"
-              >Experience</a
-            >
-            <a href="#education" class="flex justify-end font-bold"
-              >Education</a
-            >
-            <a href="#project" class="flex justify-end font-bold">Project</a>
+        <div class="hidden sm:hidden py-[10px]" id="mobile-menu">
+          <div class="space-y-[15px] text-[14px] ml-auto -translate-x-[20px]">
+            <a href="#home" class="flex justify-end">Home</a>
+            <a href="#about" class="flex justify-end">About</a>
+            <a href="#skills" class="flex justify-end">Skiils</a>
+            <a href="#experience" class="flex justify-end">Experience</a>
+            <a href="#education" class="flex justify-end">Education</a>
+            <a href="#project" class="flex justify-end">Project</a>
           </div>
         </div>
       </nav>
     </header>
 
-    <div class="space-y-[120px] ]">
-      <section class="hero_section relative" id="hero">
-        <div class="absolute w-full h-full" id="particles-js"></div>
+    <div class="">
+      <section class="hero_section relative sm:py-[100px] py-[60px]" id="hero">
+        <div class="absolute w-full h-full top-0" id="particles-js"></div>
         <div class="mx-auto max-w-7xl">
-          <div class="grid grid-cols-2 max-sm:grid-cols-1 h-full pt-[100px]">
+          <div class="grid grid-cols-2 max-sm:grid-cols-1 h-full">
             <div class="flex items-center relative">
-              <div class="space-y-[30px]">
+              <div
+                class="max-sm:text-center max-sm:w-full max-sm:space-y-[10px]"
+              >
                 <h1
-                  class="font-bold max-md:font-semibold text-[55px] max-md:text-[50px] block text-[#002057]"
+                  class="font-bold text-[60px] max-md:text-[35px] block text-[#002057]"
                 >
-                  Hi There, <br />
-                  I'm
-                  <span class="text-[#fec903]"> Dico Aji Prasetyo</span>
+                  Hi There, I'm
+                </h1>
+                <h1
+                  class="text-[#fec903] font-bold text-[60px] max-md:text-[35px] block"
+                >
+                  Dico Aji Prasetyo
                 </h1>
 
-                <a href="#" class="btn-blue inline-block"
-                  >Contact Me <i class="fa-solid fa-phone"></i
-                ></a>
-
-                <div class="social_media">
+                <div class="social_media sm:pt-[25px] max-sm:pt-[15px]">
                   <a href="https://www.linkedin.com/in/dicoaji/"
-                    ><i class="fab fa-linkedin"></i
-                  ></a>
-                  <a href="https://twitter.com/dicoajip"
-                    ><i class="fab fa-twitter"></i
+                    ><i class="sm:p-[15px] p-[10px] fab fa-linkedin"></i
                   ></a>
                   <a href="https://github.com/DicoAji"
-                    ><i class="fab fa-github"></i
+                    ><i class="fab fa-github sm:p-[15px] p-[10px]"></i
+                  ></a>
+                  <a href="https://twitter.com/dicoajip"
+                    ><i class="sm:p-[15px] p-[10px] fab fa-twitter"></i
                   ></a>
                   <a href="mailto:dicoaji12@gmail.com"
-                    ><i class="fa-solid fa-envelope"></i
+                    ><i class="fa-solid fa-envelope sm:p-[15px] p-[10px]"></i
                   ></a>
                   <a href="https://www.instagram.com/dicoaji_/"
-                    ><i class="fab fa-instagram"></i
+                    ><i class="fab fa-instagram sm:p-[15px] p-[10px]"></i
                   ></a>
                 </div>
               </div>
@@ -206,7 +207,7 @@
                 </g>
               </svg>
               <div
-                class="relative lg:w-[75%] md:ml-auto mx-auto md:w-[90%] w-[80%]"
+                class="relative lg:w-[65%] md:ml-auto mx-auto md:w-[90%] w-[80%]"
               >
                 <img
                   class="img-hero z-10 relative w-full"
@@ -222,7 +223,7 @@
       <section class="about" id="about">
         <div class="mx-auto max-w-7xl text-center space-y-[30px]">
           <h2 class="text-[30px] font-semibold md:text-[35px]">About</h2>
-          <p>
+          <p class="max-sm:text-[12px]">
             I am a full-stack developer. I am a graduate of Diponegoro
             University Informatics. I am very passionate about improving my
             coding skills & developing applications & websites. When I was in
@@ -230,14 +231,17 @@
             developing my coding skills through my portfolio. I can work as a
             team or individual.
           </p>
-          <div class="">
-            <p>
+          <div>
+            <p class="max-sm:text-[12px]">
               Email :
-              <a href="mailto:dicoaji12@gmail.com"> dicoaji12@gmail.com </a>
+              <a class="max-sm:text-[12px]" href="mailto:dicoaji12@gmail.com">
+                dicoaji12@gmail.com
+              </a>
             </p>
-            <p>
+            <p class="max-sm:text-[12px]">
               Address :
               <a
+                class="max-sm:text-[12px]"
                 href="https://www.google.com/maps/place/Kec.+Kradenan,+Kabupaten+Grobogan,+Jawa+Tengah/@-7.1727291,111.0493816,12z/data=!3m1!4b1!4m6!3m5!1s0x2e7753592ca591c7:0x4027a76e352ef70!8m2!3d-7.1490283!4d111.1433863!16s%2Fg%2F11b_2nym12?hl=id&entry=ttu"
                 >Grobogan, Central Java</a
               >
@@ -246,7 +250,7 @@
           <button>
             <a
               href="https://drive.google.com/file/d/1Lrxz7CnDhUC1hftrfAzNgp46Yg6d72u1/view?usp=sharing"
-              class="btn-orange inline-block"
+              class="bg-orange-400 text-white py-[5px] px-[20px] rounded-full inline-block"
               >Resume</a
             >
           </button>
@@ -254,18 +258,23 @@
       </section>
       <!-- HARD SKILL -->
       <section class="hard_skills text-center relative" id="skills">
-        <div id="particles-js"></div>
-        <div class="mx-auto max-w-7xl space-y-[30px]">
+        <div class="mx-auto max-w-7xl space-y-[30px] py-[50px]">
           <h2 class="text-[30px] font-semibold md:text-[35px]">
             What <span class="text-[#0000b6]">I Do</span>
           </h2>
-          <div class="skills_list">
-            <a href="" class="btn">Coding</a>
-            <a href="" class="btn">Editing Photo</a>
-            <a href="" class="btn">UI/UX Design</a>
-            <a href="" class="btn">Administrative Task</a>
-            <a href="" class="btn">Microsoft Office</a>
-            <a href="" class="btn">Research And Analysis</a>
+          <div class="skills_list max-sm:space-y-[5px]">
+            <a href="" class="btn sm:text-[18px] text-[12px]">Coding</a>
+            <a href="" class="btn sm:text-[18px] text-[12px]">Editing Photo</a>
+            <a href="" class="btn sm:text-[18px] text-[12px]">UI/UX Design</a>
+            <a href="" class="btn sm:text-[18px] text-[12px]"
+              >Administrative Task</a
+            >
+            <a href="" class="btn sm:text-[18px] text-[12px]"
+              >Microsoft Office</a
+            >
+            <a href="" class="btn sm:text-[18px] text-[12px]"
+              >Research And Analysis</a
+            >
           </div>
           <div
             class="hard_skills_logo space-x-[10px] space-y-[15px]"
@@ -274,22 +283,38 @@
         </div>
       </section>
       <!-- SOFT SKILL -->
-      <section class="relative mx-auto max-w-7xl">
+      <section class="relative pb-[40px] mx-auto max-w-7xl">
         <div class="soft_skills w-[70%] mx-auto text-center space-y-[30px]">
           <h2 class="text-[30px] font-semibold md:text-[35px]">
             My Other Skills
           </h2>
-          <div class="skills_other space-x-[5px] space-y-[15px]">
-            <a href="" class="btn btn-outline-dark">Problem Solving</a>
-            <a href="" class="btn btn-outline-dark">Critical Thinking</a>
-            <a href="" class="btn btn-outline-dark">Colaborative</a>
-            <a href="" class="btn btn-outline-dark">Creative</a>
-            <a href="" class="btn btn-outline-dark">Time Management</a>
-            <a href="" class="btn btn-outline-dark">Adaptive</a>
-            <a href="" class="btn btn-outline-dark"
+          <div
+            class="skills_other space-x-[5px] sm:space-y-[15px] space-y-[5px]"
+          >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Problem Solving</a
+            >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Critical Thinking</a
+            >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Colaborative</a
+            >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Creative</a
+            >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Time Management</a
+            >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Adaptive</a
+            >
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
               >Independent Learing Ability</a
             >
-            <a href="" class="btn btn-outline-dark">Digence and Rigor</a>
+            <a href="" class="btn btn-outline-dark sm:text-[18px] text-[12px]"
+              >Digence and Rigor</a
+            >
           </div>
         </div>
       </section>
@@ -322,7 +347,7 @@
             <div class="">
               <div class="card text-white bg-[#111145] p-[30px] rounded-[20px]">
                 <img
-                  src="assets/img/SMA-gerbang.png"
+                  src="assets/img/SMA-gerbang.jpg"
                   class="card-img-top w-[600px] mx-auto h-[350px] object-cover"
                   alt="..."
                 />
@@ -342,7 +367,7 @@
       </section>
       <!-- EXPERIENCE -->
       <section
-        class="container mx-auto text-center bg-slate-200 md:p-[50px] p-[20px] rounded-[20px]"
+        class="container py-[50px] border mx-auto text-center bg-slate-200 my-[50px] rounded-[20px]"
         id="experience"
       >
         <h1
@@ -350,12 +375,12 @@
         >
           Experience
         </h1>
-        <div class="experience space-y-[40px] mt-[50px]">
+        <div class="experience space-y-[40px] sm:mt-[30px] mt-[10px]">
           <div class="">
             <p class="text-[24px] font-medium">EDITING CODING</p>
             <p>📍 Badan Pusat Statistika Grobogan</p>
             <p class="text-blue-800">July 2023 - August 2023</p>
-            <p>
+            <p class="max-sm:text-[12px]">
               Correct, tidy up and check the code and document contents of the
               agricultural census results in 2023. Input data that has been
               checked and corrected into Microsoft Excel with a time of one day
@@ -368,7 +393,7 @@
             </p>
             <p>📍 Dicoding Indonesia</p>
             <p class="text-blue-800">August 2022 - December 2022</p>
-            <p>
+            <p class="max-sm:text-[12px]">
               Study material comprehension 8 hours a day. Soft skills training
               class meetings (time management, personal productivity,
               communication skills, ethical behavior, networking, business
@@ -380,7 +405,7 @@
             <p class="text-[24px] font-medium">WEB DEVELOPER</p>
             <p>📍 Dinas Pendidikan dan Kebudayaan Kabupaten Batang</p>
             <p class="text-blue-800">February 2022 - July 2022</p>
-            <p>
+            <p class="max-sm:text-[12px]">
               Brainstorming with the Dinas, how the flow and what features are
               presented in the Bandikmenti information system, an information
               system used as a forum for registering scholarships and managing
@@ -396,7 +421,7 @@
       </section>
 
       <!-- PROJECT -->
-      <section class="project" id="project">
+      <section class="project py-[50px]" id="project">
         <div class="container mx-auto text-center">
           <h2 class="text-[30px] font-semibold md:text-[35px] text-center">
             Lets Have a look at My Portfolio
@@ -419,47 +444,71 @@
                 <h3 class="text-[20px] font-semibold md:text-[22px]">
                   Dico Aji Prasetyo
                 </h3>
-                <p class="text-[16px]">
+                <p class="sm:text-[16px] text-[12px]">
                   Thank you for visiting my portfolio. Don't forget to keep
                   trying and praying.
                 </p>
               </div>
               <div class="max-md:mt-[40px]">
                 <div class="flex">
-                  <div class="quick_link lg:mx-auto">
+                  <div class="lg:mx-auto">
                     <p class="text-[18px] font-semibold">Quick Link</p>
                     <ul>
-                      <li><a href="#home">↗ Home</a></li>
-                      <li><a href="#about">↗ About Me</a></li>
-                      <li><a href="#skills">↗ Skills</a></li>
-                      <li><a href="#education">↗ Education</a></li>
-                      <li><a href="#experience">↗ Experience</a></li>
-                      <li><a href="#project">↗ Project</a></li>
+                      <li>
+                        <a class="sm:text-[16px] text-[12px]" href="#home"
+                          >↗ Home</a
+                        >
+                      </li>
+                      <li>
+                        <a class="sm:text-[16px] text-[12px]" href="#about"
+                          >↗ About Me</a
+                        >
+                      </li>
+                      <li>
+                        <a class="sm:text-[16px] text-[12px]" href="#skills"
+                          >↗ Skills</a
+                        >
+                      </li>
+                      <li>
+                        <a class="sm:text-[16px] text-[12px]" href="#education"
+                          >↗ Education</a
+                        >
+                      </li>
+                      <li>
+                        <a class="sm:text-[16px] text-[12px]" href="#experience"
+                          >↗ Experience</a
+                        >
+                      </li>
+                      <li>
+                        <a class="sm:text-[16px] text-[12px]" href="#project"
+                          >↗ Project</a
+                        >
+                      </li>
                     </ul>
                   </div>
                   <div class="max-lg:ml-4">
-                    <div class="contact_person max-lg:ml-auto">
+                    <div class="contact_person sm:ml-auto w-fit mx-auto">
                       <p class="text-[18px] font-semibold">Contact Person</p>
                       <ul>
                         <li><a href="">📞 +6288200-XXX-XXX</a></li>
                         <li><a href="">📨 dicoaji12@gmail.com</a></li>
                         <li><a href="">📍 Grobogan</a></li>
                       </ul>
-                      <div class="social_media">
+                      <div class="max-sm:mt-[5px]">
                         <a href="https://www.linkedin.com/in/dicoaji/"
-                          ><i class="fab fa-linkedin"></i>
+                          ><i class="fab fa-linkedin p-[5px]"></i>
                         </a>
                         <a href="https://github.com/DicoAji"
-                          ><i class="fab fa-github"></i
+                          ><i class="fab fa-github p-[5px]"></i
                         ></a>
                         <a href="mailto:dicoaji12@gmail.com"
-                          ><i class="fa-solid fa-envelope"></i
+                          ><i class="fa-solid fa-envelope p-[5px]"></i
                         ></a>
                         <a href="https://twitter.com/dicoajip"
-                          ><i class="fab fa-twitter"></i
+                          ><i class="fab fa-twitter p-[5px]"></i
                         ></a>
                         <a href="https://www.instagram.com/dicoaji_/"
-                          ><i class="fab fa-instagram"></i
+                          ><i class="fab fa-instagram p-[5px]"></i
                         ></a>
                       </div>
                     </div>
@@ -521,7 +570,15 @@
           const linkElement = document.createElement("a");
           linkElement.href = project.link;
           linkElement.textContent = "Go to Site";
-          linkElement.classList.add("inline-block", "btn-blue");
+          linkElement.classList.add(
+            "inline-block",
+            "bg-blue-800",
+            "text-white",
+            "py-1",
+            "max-sm:text-[12px]",
+            "px-4",
+            "rounded-full"
+          );
 
           // Tambahkan elemen-elemen ke dalam div proyek
           projectDiv.appendChild(imgElement);
